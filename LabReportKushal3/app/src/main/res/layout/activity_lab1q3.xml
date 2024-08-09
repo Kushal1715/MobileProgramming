@@ -34,10 +34,7 @@
                 android:layout_height="wrap_content"
                 android:text="Button 2" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button 3" />
+
         </LinearLayout>
 
         <!-- RelativeLayout Example -->
@@ -151,10 +148,7 @@
                 <TextView android:text="Row 2, Column 2" />
             </TableRow>
 
-            <TableRow>
-                <TextView android:text="Row 3, Column 1" />
-                <TextView android:text="Row 3, Column 2" />
-            </TableRow>
+
 
         </TableLayout>
 
@@ -188,15 +182,7 @@
                 android:layout_height="wrap_content"
                 android:text="Grid Item 4" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Grid Item 5" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Grid Item 6" />
 
         </GridLayout>
 
