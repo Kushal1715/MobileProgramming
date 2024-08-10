@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <EditTextk
+    <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

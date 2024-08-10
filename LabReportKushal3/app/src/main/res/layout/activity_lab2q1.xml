@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input for Number 1 -->
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number 1"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Input for Operator -->
+    <EditText
+        android:id="@+id/editTextOperator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Operator (+, -, *, /)"
+        android:inputType="text"
+        android:maxLength="1"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Input for Number 2 -->
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number 2"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Button to Calculate Result -->
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
