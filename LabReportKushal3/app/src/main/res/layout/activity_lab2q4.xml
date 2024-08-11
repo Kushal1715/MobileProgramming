@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Input for Principal -->
+        <EditText
+            android:id="@+id/editTextPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter principal amount"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Input for Rate -->
+        <EditText
+            android:id="@+id/editTextRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter interest rate"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Input for Time -->
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter time in years"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Button to Calculate Simple Interest -->
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculate Interest"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>
